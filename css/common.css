@@ -1,0 +1,7 @@
+.checkbox input { display: none; }
+
+.checkbox input:checked ~ .label:before { background-color: #1dcb5d; border: none; content: "\2713"; color: #fff; text-shadow: 1px 1px 0px #107234,2px 2px 0px #107234,3px 3px 0px #107234,4px 4px 0px #107234,5px 5px 0px #107234,6px 6px 0px #107234,7px 7px 0px #107234,8px 8px 0px #107234,9px 9px 0px #107234,10px 10px 0px #107234;; }
+
+.checkbox .label { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.checkbox .label:before { content: ""; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; width: 24px; height: 24px; border: 2px solid #333; border-radius: 3px; margin-right: 6px; -webkit-box-sizing: border-box; box-sizing: border-box; }
